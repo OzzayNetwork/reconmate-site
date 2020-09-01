@@ -715,7 +715,7 @@ a.scrollbottom.smooth-scroll {
     margin-right: 10px
 }
 .main-menu.homepage2 ul > li.nav-item > a.nav-link {
-    color: #888888
+    color:#313131;
 }
 .main-menu.homepage2 ul > li.nav-item > a.nav-link:after {
     background: #e75719
@@ -1034,16 +1034,22 @@ span.menu-title {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-    z-index: 2
+    z-index: 2;
+    background-attachment: fixed;;
 }
 .howitsbg:after {
     position: absolute;
     left: 0;
-    top: -80px;
+    top: 0px;
     background: #fff;
     width: 100%;
     height: 80px;
-    content: ""
+    content: "";
+
+    background: #e7561873;
+    background:linear-gradient(to left, #e75719e3, #e7571975);
+    width: 100%;
+    height: 100%;
 }
 .hoitsworkbox {
     position: relative;
@@ -1052,7 +1058,19 @@ span.menu-title {
     box-shadow: 0px 25px 80px 0px rgba(110, 110, 110, 0.15);
     background-color: #fff;
     z-index: 3;
-    padding: 75px 174px 45px 174px
+    padding: 75px 174px 45px 174px;
+    overflow: hidden;
+}
+.hoitsworkbox::after{
+    display: flex;
+    position: absolute;
+    content: "";
+    background:#e75719;
+    height: 100px;
+    width: 300px;
+    right: -150px;
+    bottom: 0px;
+    transform: rotate(-45deg);
 }
 .single-howitswork {
     margin-bottom: 30px
@@ -1069,10 +1087,10 @@ span.menu-title {
     font-size: 30px
 }
 .single-howitswork p {
-    font-size: 14px;
+    font-size: 13px;
     color: #888888;
     margin: 0 0 0;
-    line-height: 30px
+    line-height: normal;
 }
 .amazing-screen {
     padding: 100px 0 80px;
@@ -2380,7 +2398,7 @@ a.cmnt-link-share i.fa {
 
 /* some changes */
 .navbar-brand img{
-    height: 65px;
+    height: 55px;
 
 }
 @media only screen and (min-width: 1601px) and (max-width: 1900px) {
@@ -2738,4 +2756,177 @@ a.cmnt-link-share i.fa {
     .singlepsb1 a.btn-mr, .singlepsb1 .single-blog-post a.blg-link, .single-blog-post .singlepsb1 a.blg-link {
         margin: 5px 0
     }
+}
+
+/* custom footer */
+.footer-style-three {
+    position: relative;
+    font-weight: 500;
+    background: #212529;
+    background-size: 100% auto;
+    font-size: 14px;
+}
+
+.footer-style-three {
+    position: relative;
+    font-weight: 500;
+    background: #212529;
+    background-size: 100% auto;
+    font-size: 14px;
+}
+
+.footer-style-three .footer-upper {
+    position: relative;
+    padding: 120px 0px 90px;
+}
+
+.auto-container {
+    position: static;
+    max-width: 1200px;
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+.footer-style-three .footer-ribbon {
+    background: #ff3301;
+    position: absolute;
+    margin: -44px 0 0 0;
+    padding: 10px 20px 6px 20px;
+    top: 13px;
+}
+
+.footer-style-three .footer-ribbon span {
+    color: #FFF;
+    font-size: 1.6em;
+    font-family: 'Mali', cursive;
+}
+
+.footer-style-three .footer-upper .footer-widget {
+    position: relative;
+}
+
+.footer-style-three .newsletter-widget .text, .footer-style-three .info li a, .footer-style-three .info li, .footer-style-three .text {
+    color: #777;
+}
+
+.footer-style-three .info {
+    position: relative;
+    margin-bottom: 20px;
+}
+.footer-style-three .info li {
+    position: relative;
+    line-height: 30px;
+    color: #6f8ba4;
+}
+.footer-style-three .newsletter-widget .text, .footer-style-three .info li a, .footer-style-three .info li, .footer-style-three .text {
+    color: #777;
+}
+
+.footer-style-three .social-links {
+    position: relative;
+}
+.footer-style-three .social-links li {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+}
+
+.footer-style-three .social-links li a {
+    position: relative;
+    display: block;
+    color: #6f8ba4;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.footer-style-three .footer-column {
+    position: relative;
+    margin-bottom: 30px;
+    z-index: 5;
+}
+.footer-style-three .footer-upper h3 {
+    color: white;
+}
+.footer-style-three .footer-upper h3 {
+    font-size: 1.2em;
+    font-weight: 500;
+    text-transform: uppercase;
+    margin: 0 0 14px 0;
+}
+.footer-style-three .links {
+    position: relative;
+}
+
+.footer-column ul, .footer-column li{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+.footer-style-three .footer-bottom {
+    position: relative;
+    padding: 25px 35px 0px;
+    background: #1c2023;
+    color: #555;
+}
+
+.veta-foot {
+    align-items: center;
+    display: flex;
+}
+
+.footer-style-three .footer-bottom .bottom-column {
+    position: relative;
+    margin-bottom: 20px;
+}
+a:hover, a:focus, a:visited {
+    text-decoration: none;
+    outline: none;
+}
+.veta-foot img {
+    height: 30px;
+    margin-right: 2rem;
+}
+.opacity-5 {
+    opacity: 0.5 !important;
+}
+
+.footer-style-three .footer-bottom .copyright {
+    position: relative;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 14px;
+}
+.footer-style-three .links li {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.footer-style-three .links li a {
+    position: relative;
+    display: inline-block;
+    line-height: 24px;
+    color: #6f8ba4;
+    font-weight: 300;
+    transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+}
+
+.footer-style-three .links li a {
+    color: #777;
+}
+.footer-style-three .links li {
+    position: relative;
+    margin-bottom: 5px;
+}
+
+.footer-style-three .links li:last-child {
+    margin-bottom: 0px;
 }
