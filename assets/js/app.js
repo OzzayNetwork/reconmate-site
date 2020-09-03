@@ -1,5 +1,10 @@
 ! function (e) {
     "use strict";
+    $(window).on("load", function () {
+        setTimeout(function () {
+            $(".preloader").fadeOut()
+        }, 800)
+    }),
     jQuery(document).on("ready", function () {
         e("a.smooth-scroll").on("click", function (a) {
             var t = e(this);
