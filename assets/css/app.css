@@ -876,15 +876,18 @@ span.menu-title {
     }
 }
 .feature-area {
-    background-image: url(../images/all-img/serbg.png);
+    background-image: url("../images/all-img/serbg.png");
+    background-image: url("../images/all-img/white-bridge.jpg");
+    background-attachment: fixed;
+    background-size: cover;
     padding: 100px 0 70px;
-    background-size: 85%;
+    /* background-size: 85%; */
     background-repeat: no-repeat;
-    background-position: top center;
+    background-position:center;
     background-color: #fff
 }
 .feature-area.homepage2 {
-    background-image: none;
+    /* background-image: none; */
     position: relative;
     z-index: 1
 }
@@ -1903,7 +1906,17 @@ h5.footer-title {
 }
 .brand-product-active .owl-item img {
     width: auto;
-    opacity: 0.8
+    opacity: 0.8;
+    filter: grayscale(1);
+
+}
+
+.brand-product-active .owl-item a img {
+   cursor: pointer;    
+}
+
+.brand-product-active .owl-item a img:hover{
+    filter: none;
 }
 .homepage2 .single-blog-post figure.blog-thumbs:after {
     background-image: -webkit-gradient(linear, left top, right top, from(#e75719), to(#2741e0));
@@ -3020,4 +3033,139 @@ html .text-color-primary, html .text-primary {
 }
 .feature-box {
     display: flex;
+}
+
+.single-product-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+    height: 100%;
+
+}
+
+.brand-product-active>div >div{
+    display: flex !important;
+}
+
+
+/* Home Intro */
+.home-statement {
+	background-color: #212529;
+	margin-bottom: 0px;
+	overflow: hidden;
+	padding: 38.4px 0;
+	padding: 2.4rem 0;	
+    text-align: left;
+    /* position: absolute; */
+    bottom: 0px;
+    width: 100%;
+}
+
+.home-statement p {
+	color: #FFF;
+    display: inline-block;
+    font-size: 1.3rem;
+    font-weight: normal;
+    margin-bottom: 0;
+    letter-spacing: 3px;
+    overflow: hidden;
+}
+
+.home-statement p span:not(.highlighted-word) {
+	color: #FFF;
+	display: block;
+	font-size: 0.8em;
+	font-weight: 300;
+	padding-top: 5px;
+	opacity: 0.7;
+}
+
+.home-statement p .highlighted-word {
+    /* font-size: 1.6em; */
+    font-weight: normal;;
+}
+
+.home-statement .get-started {
+	position: relative;
+}
+
+.home-statement .get-started .btn {
+	position: relative;
+	z-index: 1;
+}
+
+.home-statement .get-started .btn i {
+	font-size: 1.1em;
+	font-weight: normal;
+	margin-left: 5px;
+}
+
+.home-statement .get-started a {
+	color: #FFF;
+}
+
+.home-statement .get-started a:not(.btn) {
+	color: #FFF;
+	font-weight: 600;
+}
+
+.home-statement .learn-more {
+	color: #FFF;
+	margin-left: 15px;
+	font-weight: 300;
+}
+
+.home-statement.light {
+	background-color: #EDEDED;
+}
+
+.home-statement.light.secondary {
+	background-color: #E0E1E4;
+}
+
+.home-statement.light p,
+.home-statement.light .learn-more,
+.home-statement.light p span:not(.highlighted-word),
+.home-statement.light .get-started a:not(.btn) {
+	color: #333333;
+}
+.font-12{
+    font-size: 12px !important;
+}
+.align-items-center{
+    align-items: center;
+}
+.home-statement img{
+    height: 50px;
+}
+
+.word-rotator .owl-stage{
+    display: flex;
+}
+.home-statement{
+    background: black;
+    position: relative;
+    background: url("../../assets/videos/galaxy.jpg");
+    background-position: center;
+    background-attachment:fixed;
+}
+.home-statement:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    top: 0px;
+    left: 0px;
+   background:linear-gradient(270deg,rgba(0,0,0,.15) 0,rgba(0, 0, 0, 0.66));
+
+}
+
+.veata-logo-container hr{
+border-top: 4px white solid;
+width: 3%;
+margin: 0px auto;
+opacity: 0.6;
 }
