@@ -1,6 +1,6 @@
 	/*
   	Flaticon icon font: Flaticon
-  	Creation date: 02/09/2020 11:26
+  	Creation date: 03/09/2020 13:07
   	*/
 
 @font-face {
@@ -25,39 +25,17 @@
 [class^="flaticon-"]:before, [class*=" flaticon-"]:before,
 [class^="flaticon-"]:after, [class*=" flaticon-"]:after {   
   font-family: Flaticon;
+        /* font-size: 20px; */
 font-style: normal;
+/* margin-left: 20px; */
 }
 
-.flaticon-invoices:before { content: "\f100"; }
-.flaticon-test:before { content: "\f101"; }
-.flaticon-calendar:before { content: "\f102"; }
-.flaticon-watch:before { content: "\f103"; }
-.flaticon-experience:before { content: "\f104"; }
-.flaticon-contract:before { content: "\f105"; }
-.flaticon-stamp:before { content: "\f106"; }
-.flaticon-register:before { content: "\f107"; }
-.flaticon-register-1:before { content: "\f108"; }
-.flaticon-register-2:before { content: "\f109"; }
-.flaticon-timer:before { content: "\f10a"; }
-.flaticon-error:before { content: "\f10b"; }
-.flaticon-search:before { content: "\f10c"; }
-.flaticon-download:before { content: "\f10d"; }
-.flaticon-medal:before { content: "\f10e"; }
-.flaticon-certificate:before { content: "\f10f"; }
-.flaticon-history:before { content: "\f110"; }
-.flaticon-stamp-1:before { content: "\f111"; }
-.flaticon-autograph:before { content: "\f112"; }
-.flaticon-error-1:before { content: "\f113"; }
-.flaticon-cancel:before { content: "\f114"; }
-.flaticon-destroy:before { content: "\f115"; }
-.flaticon-tick:before { content: "\f116"; }
-.flaticon-find:before { content: "\f117"; }
-.flaticon-time:before { content: "\f118"; }
-.flaticon-virus:before { content: "\f119"; }
-.flaticon-keypad:before { content: "\f11a"; }
-.flaticon-install:before { content: "\f11b"; }
-.flaticon-checklist:before { content: "\f11c"; }
-.flaticon-register-3:before { content: "\f11d"; }
-.flaticon-automation:before { content: "\f11e"; }
-.flaticon-tech:before { content: "\f11f"; }
-.flaticon-tech-1:before { content: "\f120"; }
+.flaticon-reload:before { content: "\f100"; }
+.flaticon-like:before { content: "\f101"; }
+.flaticon-brain:before { content: "\f102"; }
+.flaticon-checklist:before { content: "\f103"; }
+.flaticon-register:before { content: "\f104"; }
+.flaticon-register-1:before { content: "\f105"; }
+.flaticon-scale:before { content: "\f106"; }
+.flaticon-emoji:before { content: "\f107"; }
+.flaticon-automation:before { content: "\f108"; }

@@ -1,6 +1,6 @@
     /*
     Flaticon icon font: Flaticon
-    Creation date: 02/09/2020 11:26
+    Creation date: 03/09/2020 13:07
     */
 
     @font-face {
@@ -37,70 +37,22 @@
   font-smoothing: antialiased;
     }
 
-    .flaticon-invoices:before { content: "\f100"; }
-.flaticon-test:before { content: "\f101"; }
-.flaticon-calendar:before { content: "\f102"; }
-.flaticon-watch:before { content: "\f103"; }
-.flaticon-experience:before { content: "\f104"; }
-.flaticon-contract:before { content: "\f105"; }
-.flaticon-stamp:before { content: "\f106"; }
-.flaticon-register:before { content: "\f107"; }
-.flaticon-register-1:before { content: "\f108"; }
-.flaticon-register-2:before { content: "\f109"; }
-.flaticon-timer:before { content: "\f10a"; }
-.flaticon-error:before { content: "\f10b"; }
-.flaticon-search:before { content: "\f10c"; }
-.flaticon-download:before { content: "\f10d"; }
-.flaticon-medal:before { content: "\f10e"; }
-.flaticon-certificate:before { content: "\f10f"; }
-.flaticon-history:before { content: "\f110"; }
-.flaticon-stamp-1:before { content: "\f111"; }
-.flaticon-autograph:before { content: "\f112"; }
-.flaticon-error-1:before { content: "\f113"; }
-.flaticon-cancel:before { content: "\f114"; }
-.flaticon-destroy:before { content: "\f115"; }
-.flaticon-tick:before { content: "\f116"; }
-.flaticon-find:before { content: "\f117"; }
-.flaticon-time:before { content: "\f118"; }
-.flaticon-virus:before { content: "\f119"; }
-.flaticon-keypad:before { content: "\f11a"; }
-.flaticon-install:before { content: "\f11b"; }
-.flaticon-checklist:before { content: "\f11c"; }
-.flaticon-register-3:before { content: "\f11d"; }
-.flaticon-automation:before { content: "\f11e"; }
-.flaticon-tech:before { content: "\f11f"; }
-.flaticon-tech-1:before { content: "\f120"; }
+    .flaticon-reload:before { content: "\f100"; }
+.flaticon-like:before { content: "\f101"; }
+.flaticon-brain:before { content: "\f102"; }
+.flaticon-checklist:before { content: "\f103"; }
+.flaticon-register:before { content: "\f104"; }
+.flaticon-register-1:before { content: "\f105"; }
+.flaticon-scale:before { content: "\f106"; }
+.flaticon-emoji:before { content: "\f107"; }
+.flaticon-automation:before { content: "\f108"; }
     
-    $font-Flaticon-invoices: "\f100";
-    $font-Flaticon-test: "\f101";
-    $font-Flaticon-calendar: "\f102";
-    $font-Flaticon-watch: "\f103";
-    $font-Flaticon-experience: "\f104";
-    $font-Flaticon-contract: "\f105";
-    $font-Flaticon-stamp: "\f106";
-    $font-Flaticon-register: "\f107";
-    $font-Flaticon-register-1: "\f108";
-    $font-Flaticon-register-2: "\f109";
-    $font-Flaticon-timer: "\f10a";
-    $font-Flaticon-error: "\f10b";
-    $font-Flaticon-search: "\f10c";
-    $font-Flaticon-download: "\f10d";
-    $font-Flaticon-medal: "\f10e";
-    $font-Flaticon-certificate: "\f10f";
-    $font-Flaticon-history: "\f110";
-    $font-Flaticon-stamp-1: "\f111";
-    $font-Flaticon-autograph: "\f112";
-    $font-Flaticon-error-1: "\f113";
-    $font-Flaticon-cancel: "\f114";
-    $font-Flaticon-destroy: "\f115";
-    $font-Flaticon-tick: "\f116";
-    $font-Flaticon-find: "\f117";
-    $font-Flaticon-time: "\f118";
-    $font-Flaticon-virus: "\f119";
-    $font-Flaticon-keypad: "\f11a";
-    $font-Flaticon-install: "\f11b";
-    $font-Flaticon-checklist: "\f11c";
-    $font-Flaticon-register-3: "\f11d";
-    $font-Flaticon-automation: "\f11e";
-    $font-Flaticon-tech: "\f11f";
-    $font-Flaticon-tech-1: "\f120";
+    $font-Flaticon-reload: "\f100";
+    $font-Flaticon-like: "\f101";
+    $font-Flaticon-brain: "\f102";
+    $font-Flaticon-checklist: "\f103";
+    $font-Flaticon-register: "\f104";
+    $font-Flaticon-register-1: "\f105";
+    $font-Flaticon-scale: "\f106";
+    $font-Flaticon-emoji: "\f107";
+    $font-Flaticon-automation: "\f108";
