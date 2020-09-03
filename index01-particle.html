@@ -80,13 +80,109 @@
                         <li class="nav-item"><a href="#whyUs" class="nav-link smooth-scroll">Why Us</a></li>
                         <li class="nav-item"><a href="#contacts" class="nav-link smooth-scroll">Contact Us</a></li>
                         
-                        <li><a href="#" class="btn-mr  th-primary-outline2white">Book Demo</a></li>
+                        <li><a href="#" class="btn-mr  btn-primary btn" data-toggle="modal" data-target="#booking-form" >Book Demo</a></li>
                     </ul>
                 </div>
 
             </div>
         </nav>
     </header>
+
+    <!-- book a demo modal -->
+    <div class="modal fade" id="booking-form" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="exampleModalLongTitle">Book A Demo</h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true"><i class="pe-7s-close"></i></span>
+            </button>
+          </div>
+          <div class="modal-body p-0">
+            <div class="col-12 p-0">
+              <div class="pr-3 pl-1">
+                <div class="row">
+                  <div class="col-md-5 p-0 position-relative img-cont">
+                    <div class="modal-img"></div>
+                    <div class="p-5 text-white position-relative">
+                      <h4 class="text-white">Book A Demo</h4>
+                      <p>Fill in the application form to request for a demo.</p>
+                      <img class="" src="assets/images/all-img/footer.svg">
+                    </div>
+                  </div>
+                  <div class="col-md-7 col-sm-12 py-3">
+                    <form class="">
+                      <div class="form-group col-sm-12 p-0">
+                        <h4>Application Form</h4>
+                        <div class="row">
+                         <div class="col-12"> <label for="exampleFormControlSelect1">Select Title</label></div>
+                          <div class="col-md-3 col-sm-4">
+                           
+                          <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Mr</option>
+                            <option>Mrs</option>
+                            <option>Ms</option>
+                            
+                          </select>
+                        </div>
+                        </div>
+                      </div>
+                      <label>Name</label>
+                      <div class="row">
+                        
+                        <div class="col-sm-12 col-md-6 mb-3">
+                          <input type="text" class="form-control" title="enter your first name" placeholder="First name">
+                        </div>
+                        <div class="col-sm-12 col-md-6 mb-3">
+                          <input type="text" class="form-control" title="enter your other names" placeholder="Other Name(s)">
+                        </div>
+                      </div>
+                      <div class="row pt-3"> 
+                        <div class="form-group col-md-6 col-sm-12">
+                          <label for="exampleFormControlInput1">Designation</label>
+                          <input type="text" title="What's your role in the organization" class="form-control" id="exampleFormControlInput1" placeholder="Enter your designation">
+                        </div> 
+      
+                        <div class="form-group col-md-6 col-sm-12">
+                          <label for="exampleFormControlInput1">Organization Name</label>
+                          <input type="text" title="what's the name to your organization" class="form-control" id="exampleFormControlInput1" placeholder="Enter company/organization Name">
+                        </div>  
+                      </div>
+    
+                      <div class="row mt-3">
+                        <div class="form-group col-md-6 col-sm-12">
+                          <label for="exampleFormControlInput1">Phone Number</label>
+                          <input type="text" title="enter a phone number to the organization" class="form-control" id="exampleFormControlInput1" placeholder="Enter your Phone number">
+                        </div>  
+      
+                        <div class="form-group col-md-6 col-sm-12">
+                          <label for="exampleFormControlInput1">Email</label>
+                          <input type="text" title="Enter your email address" class="form-control" id="exampleFormControlInput1" placeholder="Enter your email address">
+                        </div> 
+                      </div>
+                      
+                      <div class="form-group">
+                        <label for="exampleFormControlInput1">Organization Location</label>
+                        <input type="text" title="Remember to specify the country as well" class="form-control"  placeholder="eg. Along Langata road Nairobi, Kenya">
+                      </div>
+                      <div class="col-12 px-0">
+                        <button type="submit" class="btn btn-primary mb-2">Send request <i class="ml-2 icon-action-redo icons"></i></button>
+                      </div>
+    
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>		 
+          </div>
+          <div class="modal-footer d-none">
+            <!-- <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button> -->
+            <button  type="button" class="btn btn-primary full-screen"><i class="icon-size-fullscreen icons mr-3"></i>Full Screen</button>
+          </div>
+          </div>
+        </div>
+        </div>
+      <!-- modals -->
 
     <!-- 
     banner area start
@@ -402,6 +498,12 @@ blog section start
         <div class="container">
           
             <div class="row">
+                <div class="col-12 pt-5 other-products">
+                    <h2 class="section-title text-center w-100 ">Our Other Products</h2>
+                  
+                    <hr>
+                    <p class="text-center">Here are some of our other products</p>
+                </div>
                 <div class="col-12">
                     <div class="brand-product-active owl-carousel">
                         <a href="https://blink.co.ke/" title="Get to know about Blink" target="_blank" class="single-product-brand">
@@ -557,9 +659,9 @@ blog section start
                     <h3>Links</h3>
                     <div class="links">
                       <ul>
-						            <li><a href="#home">Home</a></li>
-                        <li><a href="#services">Implementation</a></li>                        
-                        <li><a data-toggle="modal" data-target="#youtube" href="#">Why Us</a></li>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#implementation">Implementation</a></li>                        
+                        <li><a href="whyUs">Why Us</a></li>
                         <li><a href="images/documents/RevenueSure Doc.pdf">Download PDF</a></li>
                       </ul>
                     </div>
