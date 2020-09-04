@@ -1629,9 +1629,13 @@ h5.footer-title {
     background: #6419d9;
     text-align: center;
     color: #fff;
-    font-size: 30px;
+    font-size: 21px;
     line-height: 40px;
-    border-radius: 3px
+    /* border-radius: 3px; */
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
 }
 .scrollup2 #scrollUp {
     background: #e75719
@@ -3149,9 +3153,10 @@ html .text-color-primary, html .text-primary {
     background: black;
     position: relative;
     background: url("../../assets/videos/galaxy.jpg");
+    background: url("../../assets/videos/8686597_flying-through-space_by_rockfordmedia_preview.gif");
     background-position: center;
     background-attachment:fixed;
-    
+    overflow:hidden;
 }
 .home-statement:before{
     content: "";
@@ -3162,6 +3167,7 @@ html .text-color-primary, html .text-primary {
     top: 0px;
     left: 0px;
    background:linear-gradient(90deg,rgba(0, 0, 0, 0.75) 0,rgba(0, 0, 0, 0.52),rgba(0, 0, 0, 0.81));
+   background: linear-gradient(90deg,rgb(0, 0, 0) 0,rgba(0, 0, 0, 0.79),rgb(0, 0, 0));
 
 }
 
@@ -3293,4 +3299,10 @@ opacity: 0.6;
     }
 }
 
+/* a:hover, a:focus, a:visited {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+ */
 

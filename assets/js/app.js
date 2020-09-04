@@ -47,6 +47,7 @@
             margin: 10,
             mouseDrag: !0,
             autoplay: !0,
+            autoplayTimeout:7000,
             responsive: {
                 210: {
                     items: 1
@@ -109,7 +110,7 @@
             }
             a(e(".animation")), a(e(".staggered-animation"), e(".staggered-animation-wrap"))
         }), e.scrollUp({
-            scrollText: '<i class="icofont icofont-swoosh-up"></i>'
+            scrollText: '<i class="ti-arrow-up"></i>'
         }), e(".counter").counterUp({
             delay: 10,
             time: 1e3
@@ -147,6 +148,25 @@
         navText: [" ", " "]
        
     });
+
+    // custom smooth scrolling
+    jQuery($ => {
+        // The speed of the scroll in milliseconds
+        const speed = 1000;
+    
+        $('a[href*="#"]')
+          .filter((i, a) => a.getAttribute('href').startsWith('#') || a.href.startsWith(`${location.href}#`))
+          .unbind('click.smoothScroll')
+          .bind('click.smoothScroll', event => {
+            const targetId = event.currentTarget.getAttribute('href').split('#')[1];
+            const targetElement = document.getElementById(targetId);
+    
+            if (targetElement) {
+              event.preventDefault();
+              $('html, body').animate({ scrollTop: $(targetElement).offset().top }, speed);
+            }
+          });
+      });
 
     
 }(jQuery);
