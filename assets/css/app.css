@@ -528,7 +528,7 @@ img {
     font-weight: 500;
     line-height: normal;
     margin: 0 0 20px;
-    text-transform: capitalize;
+    /* text-transform: capitalize; */
     color: #fff
 }
 .banner-content p {
@@ -2448,7 +2448,7 @@ a.cmnt-link-share i.fa {
     }
     .banner-content h2 {
         font-size: 50px;
-        line-height: 50px
+        line-height: normal;
     }
     .mbl-1-img img {
         height: 480px
@@ -3290,6 +3290,13 @@ opacity: 0.6;
 
 .preloader img {
     height: 30px;
+}
+.mt-55px{
+    margin-top:55px !important;
+}
+
+.pt-55px{
+    padding-top:55px !important;
 }
 
 

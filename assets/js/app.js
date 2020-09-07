@@ -143,7 +143,7 @@
         animateOut: 'backOutDown',
         animateIn: 'fadeInDown',
         smartSpeed:450,
-        autoplayTimeout:7000,
+        autoplayTimeout:3000,
         navigation: false,
         navText: [" ", " "]
        
