@@ -3301,6 +3301,12 @@ opacity: 0.6;
 .pt-55px{
     padding-top:55px !important;
 }
+.font-18{
+    font-size: 18px !important;
+}
+.text-black{
+    color: black !important;
+}
 
 
 @media (min-width: 576px){
