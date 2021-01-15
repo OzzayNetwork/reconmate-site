@@ -3307,7 +3307,9 @@ opacity: 0.6;
 .text-black{
     color: black !important;
 }
-
+.d-none{
+    display: none !important;
+}
 
 @media (min-width: 576px){
     #booking-form .modal-dialog{
